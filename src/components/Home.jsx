@@ -68,22 +68,23 @@ const Home = () => {
     <Image
       src="/OYSL1588.JPG"
       alt="picture"
-      fill
-      // width={700} 
-      //  height={300}
+      // fill
+      width={700} 
+       height={100}
       style={{ objectFit: "cover" }}
       className="rounded-lg shadow-lg shadow-sky-200"
     />
   </div>
 
   {/* Second Grid Item (Video) */}
-  <div className="relative  h-[600px]">
+  <div className="relative ">
     <video
       src="/LIZV9243.MP4"
       autoPlay
       loop
       muted
       playsInline
+      height={100}
       style={{ objectFit: "cover" }}
       className="absolute w-full h-full rounded-lg shadow-lg shadow-sky-200 object-cover"
     />
@@ -94,9 +95,9 @@ const Home = () => {
     <Image
       src="/IMG_2929.JPG"
       alt="picture"
-      fill
-      // width={700} 
-      //  height={300}
+      // fill
+      width={700} 
+       height={100}
       style={{ objectFit: "cover" }}
       className="rounded-lg shadow-lg shadow-sky-200"
     />
