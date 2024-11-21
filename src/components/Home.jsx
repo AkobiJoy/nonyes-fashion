@@ -31,22 +31,27 @@ const Home = () => {
        alt="picture" 
        width={700} 
        height={300} 
+       style={{ width: "500px", height: "640px", objectFit: "cover" }}
        className="shadow-lg shadow-sky-200  rounded-lg"
       />
      
       </div>
 
    <div className=" ">
-      {/* <video 
+      <video width="500" height=""
         src="/LIZV9243.MP4" 
         autoPlay
         loop 
         muted 
+        playsInline
         // controls
-        className=" max-w-6xl h-[600px] w-[500px] rounded-lg shadow-sky-200 shadow-lg"
+        style={{ width: "500px", height: "640px", objectFit: "cover" }}
+        className=" rounded-lg shadow-sky-200 shadow-lg"
       >
-      </video> */}
-      <video width="500" height="100" controls preload="auto">
+      </video>
+
+      
+      {/* <video width="500" height="100" controls preload="auto">
       <source src="/LIZV9243.MP4" type="video/mp4" />
       <track
         src="/path/to/captions.vtt"
@@ -55,16 +60,17 @@ const Home = () => {
         // label="English"
       />
       Your browser does not support the video tag.
-    </video>
+    </video> */}
       </div>
 
         <div>
       <Image
        src="/IMG_2929.JPG"
        alt="picture" 
-       width={500} 
+       width={700} 
        height={300} 
-       className="shadow-lg shadow-sky-200 rounded-lg"
+       style={{ width: "500px", height: "640px", objectFit: "cover" }}
+       className="shadow-lg shadow-sky-200  rounded-lg"
       />
       </div>
       </div>
