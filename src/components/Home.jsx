@@ -62,7 +62,7 @@ const Home = () => {
       />
       </div>
       </div> */}
-      <div className="scale-in-ver-bottom grid grid-cols-3 gap-10">
+      <div className="scale-in-ver-bottom grid grid-cols-3 gap-8 p-5 bg-gray-100">
   {/* First Grid Item */}
   <div className="relative w-[500px] h-[600px]">
     <Image
