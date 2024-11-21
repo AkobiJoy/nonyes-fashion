@@ -64,11 +64,13 @@ const Home = () => {
       </div> */}
       <div className="scale-in-ver-bottom grid grid-cols-3 gap-8 p-5 bg-gray-100">
   {/* First Grid Item */}
-  <div className="relative w-[500px] h-[600px]">
+  <div className="relative">
     <Image
       src="/OYSL1588.JPG"
       alt="picture"
       fill
+      // width={700} 
+      //  height={300}
       style={{ objectFit: "cover" }}
       className="rounded-lg shadow-lg shadow-sky-200"
     />
@@ -87,11 +89,13 @@ const Home = () => {
   </div>
 
   {/* Third Grid Item */}
-  <div className="relative w-[500px] h-[600px]">
+  <div className="relative">
     <Image
       src="/IMG_2929.JPG"
       alt="picture"
       fill
+      // width={700} 
+      //  height={300}
       style={{ objectFit: "cover" }}
       className="rounded-lg shadow-lg shadow-sky-200"
     />
