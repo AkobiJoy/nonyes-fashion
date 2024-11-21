@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='flex items-center justify-between bg-white shadow-lg shadow-sky-100 px-28 py-5 cursor-pointer fixed z-10 w-full'>
+    <nav className='flex items-center justify-between bg-white shadow-lg shadow-sky-50 px-28 py-5 cursor-pointer fixed z-10 w-full'>
         <ul className='flex items-center gap-x-12 relative'>
               {/* Wrapper div for dropdown */}
             <div className='relative group'>

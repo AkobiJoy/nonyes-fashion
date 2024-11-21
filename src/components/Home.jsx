@@ -62,7 +62,7 @@ const Home = () => {
       />
       </div>
       </div> */}
-      <div className="scale-in-ver-bottom grid grid-cols-3 gap-8 p-5 bg-gray-100">
+      <div className="scale-in-ver-bottom grid grid-cols-3 gap-8 p-5">
   {/* First Grid Item */}
   <div className="relative">
     <Image
@@ -72,7 +72,7 @@ const Home = () => {
       width={700} 
        height={100}
       style={{ objectFit: "cover" }}
-      className="rounded-lg shadow-lg shadow-sky-200"
+      className="rounded-lg shadow-lg shadow-sky-100"
     />
   </div>
 
@@ -86,7 +86,7 @@ const Home = () => {
       playsInline
       height={100}
       style={{ objectFit: "cover" }}
-      className="absolute w-full h-full rounded-lg shadow-lg shadow-sky-200 object-cover"
+      className="absolute w-full h-full rounded-lg shadow-lg shadow-sky-100 object-cover"
     />
   </div>
 
@@ -99,7 +99,7 @@ const Home = () => {
       width={700} 
        height={100}
       style={{ objectFit: "cover" }}
-      className="rounded-lg shadow-lg shadow-sky-200"
+      className="rounded-lg shadow-lg shadow-sky-100"
     />
   </div>
 </div>
