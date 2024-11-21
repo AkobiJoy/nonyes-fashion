@@ -77,13 +77,14 @@ const Home = () => {
   </div>
 
   {/* Second Grid Item (Video) */}
-  <div className="relative w-[500px] h-[600px]">
+  <div className="relative  h-[600px]">
     <video
       src="/LIZV9243.MP4"
       autoPlay
       loop
       muted
       playsInline
+      style={{ objectFit: "cover" }}
       className="absolute w-full h-full rounded-lg shadow-lg shadow-sky-200 object-cover"
     />
   </div>
