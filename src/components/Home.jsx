@@ -69,7 +69,7 @@ const Home = () => {
        alt="picture" 
        width={700} 
        height={300} 
-       style={{ width: "500px", height: "640px", objectFit: "cover" }}
+      //  style={{ width: "500px", height: "640px", objectFit: "cover" }}
        className="shadow-lg shadow-sky-200  rounded-lg"
       />
       </div>
