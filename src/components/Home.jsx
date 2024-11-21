@@ -23,7 +23,7 @@ const Home = () => {
       <h1 className='text-5xl font-semibold'>Welcome to {"Nonye's"} Fashion blog site🔸</h1>
       </div> 
 
-        <div className='scale-in-ver-bottom grid grid-cols-3 gap-10'>
+        {/* <div className='scale-in-ver-bottom grid grid-cols-3 gap-10'>
 
         <div className='mr-10'>
       <Image
@@ -45,22 +45,10 @@ const Home = () => {
         muted 
         playsInline
         // controls
-        style={{ width: "500px", height: "400px", objectFit: "cover" }}
+        style={{ width: "500px", height: "600px", objectFit: "cover" }}
         className=" rounded-lg shadow-sky-200 shadow-lg"
       >
       </video>
-
-      
-      {/* <video width="500" height="100" controls preload="auto">
-      <source src="/LIZV9243.MP4" type="video/mp4" />
-      <track
-        src="/path/to/captions.vtt"
-        // kind="subtitles"
-        // srcLang="en"
-        // label="English"
-      />
-      Your browser does not support the video tag.
-    </video> */}
       </div>
 
         <div>
@@ -73,7 +61,43 @@ const Home = () => {
        className="shadow-lg shadow-sky-200  rounded-lg"
       />
       </div>
-      </div>
+      </div> */}
+      <div className="scale-in-ver-bottom grid grid-cols-3 gap-10">
+  {/* First Grid Item */}
+  <div className="relative w-[500px] h-[600px]">
+    <Image
+      src="/OYSL1588.JPG"
+      alt="picture"
+      fill
+      style={{ objectFit: "cover" }}
+      className="rounded-lg shadow-lg shadow-sky-200"
+    />
+  </div>
+
+  {/* Second Grid Item (Video) */}
+  <div className="relative w-[500px] h-[600px]">
+    <video
+      src="/LIZV9243.MP4"
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="absolute w-full h-full rounded-lg shadow-lg shadow-sky-200 object-cover"
+    />
+  </div>
+
+  {/* Third Grid Item */}
+  <div className="relative w-[500px] h-[600px]">
+    <Image
+      src="/IMG_2929.JPG"
+      alt="picture"
+      fill
+      style={{ objectFit: "cover" }}
+      className="rounded-lg shadow-lg shadow-sky-200"
+    />
+  </div>
+</div>
+
 
       <div className='mt-14'>
       <h2 className="text-2xl font-semibold mb-2">2in1 Photochromic Glasses 👓</h2>
