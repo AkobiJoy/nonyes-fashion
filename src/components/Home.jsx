@@ -31,13 +31,13 @@ const Home = () => {
        alt="picture" 
        width={700} 
        height={300} 
-       className="shadow-lg shadow-sky-200 h-[600px] rounded-lg"
+       className="shadow-lg shadow-sky-200  rounded-lg"
       />
      
       </div>
 
    <div className=" ">
-      <video 
+      {/* <video 
         src="/LIZV9243.MP4" 
         autoPlay
         loop 
@@ -45,7 +45,17 @@ const Home = () => {
         // controls
         className=" max-w-6xl h-[600px] w-[500px] rounded-lg shadow-sky-200 shadow-lg"
       >
-      </video>
+      </video> */}
+      <video width="500" height="100" controls preload="auto">
+      <source src="/LIZV9243.MP4" type="video/mp4" />
+      <track
+        src="/path/to/captions.vtt"
+        // kind="subtitles"
+        // srcLang="en"
+        // label="English"
+      />
+      Your browser does not support the video tag.
+    </video>
       </div>
 
         <div>
@@ -54,7 +64,7 @@ const Home = () => {
        alt="picture" 
        width={500} 
        height={300} 
-       className="shadow-lg shadow-sky-200 h-[600px] rounded-lg"
+       className="shadow-lg shadow-sky-200 rounded-lg"
       />
       </div>
       </div>
