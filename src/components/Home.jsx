@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <section className='px-20 py-28'>
         <div className='mb-12'>
-      <h1 className='text-5xl font-semibold'>Welcome to Nonye's Fashion blog site🔸</h1>
+      <h1 className='text-5xl font-semibold'>Welcome to {"Nonye's"} Fashion blog site🔸</h1>
       </div> 
 
         <div className='scale-in-ver-bottom grid grid-cols-3 gap-10'>

@@ -142,7 +142,7 @@ const Login = () => {
 
           <div className="flex items-center gap-2">
             <span className="font-semibold text-sky-300 text-base">
-              Don't have an account?
+             {" Don't"} have an account?
             </span>
             <button className="text-white font-bold hover:text-black text-lg">
               Register Here
