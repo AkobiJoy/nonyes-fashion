@@ -43,7 +43,7 @@ const Login = () => {
       setLoading(true);
       // Handle form submission (e.g., API call)
       try {
-        const res = await axios.post("https://nonyesfashion.vercel.app/api/login",{
+        const res = await axios.post("http://localhost:3000/api/login",{
           email,
           password
         });

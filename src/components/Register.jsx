@@ -67,7 +67,7 @@ const Register = () => {
       setLoading(true);
       // Handle form submission (e.g., API call)
       try {
-        const res = await axios.post("https://nonyesfashion.vercel.app/api/register",{
+        const res = await axios.post("http://localhost:3000/api/register",{
           name,
           email,
           gender,
