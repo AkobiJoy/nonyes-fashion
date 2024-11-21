@@ -45,7 +45,7 @@ const Home = () => {
         muted 
         playsInline
         // controls
-        style={{ width: "500px", height: "640px", objectFit: "cover" }}
+        style={{ width: "500px", height: "400px", objectFit: "cover" }}
         className=" rounded-lg shadow-sky-200 shadow-lg"
       >
       </video>
