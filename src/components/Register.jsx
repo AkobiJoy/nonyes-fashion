@@ -67,7 +67,7 @@ const Register = () => {
       setLoading(true);
       // Handle form submission (e.g., API call)
       try {
-        const res = await axios.post(`${process.env.NEXT_PUBLIC_ENDPONT}/register`,{
+        const res = await axios.post(`/api/register`,{
           name,
           email,
           gender,
