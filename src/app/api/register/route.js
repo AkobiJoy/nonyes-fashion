@@ -33,7 +33,7 @@ export const POST = async (res) => {
    }
    catch (error) {
       console.log(error.message)
-      return new NextResponse(JSON.stringify({ msg: "server error" }), { status: 500 })
+      return new NextResponse(JSON.stringify({ msg: error.message }), { status: 500 })
    }
 }
 
