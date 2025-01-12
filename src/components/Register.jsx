@@ -63,11 +63,14 @@ const Register = () => {
       validForm = false;
     }
 
+    const LiveServerUrl  = process.env.NEXT_PUBLIC_LIVE_ENDPONT
+    const LocalServerUrl  = process.env.NEXT_PUBLIC_LOCAL_ENDPONT
+    const ApiUrl = process.env.NODE_ENV === "production"? LiveServerUrl : LocalServerUrl
     if (validForm) {
       setLoading(true);
       // Handle form submission (e.g., API call)
       try {
-        const res = await axios.post(`/api/register`,{
+        const res = await axios.post(`${ApiUrl}/register`,{
           name,
           email,
           gender,

@@ -37,3 +37,6 @@ export const POST = async (res) => {
    }
 }
 
+export function getActiveUser(res){
+//   const { token} = res.
+}
