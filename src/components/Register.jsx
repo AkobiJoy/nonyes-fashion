@@ -70,7 +70,7 @@ const Register = () => {
       setLoading(true);
       // Handle form submission (e.g., API call)
       try {
-        const res = await axios.post(`${ApiUrl}/register`,{
+        const res = await axios.post(`${ApiUrl}/api/register`,{
           name,
           email,
           gender,
